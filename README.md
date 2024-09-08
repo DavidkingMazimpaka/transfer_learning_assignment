@@ -8,7 +8,7 @@ We used a dataset of brain MRI images sourced from various medical centers. The 
 
 For the analysis of brain MRI images, all scans were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert radiologists before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert.
 
-Dataset Link: [Brain MRI Tumor Dataset]
+Dataset Link: [[Brain MRI Tumor Dataset]](https://www.kaggle.com/datasets/preetviradiya/brian-tumor-dataset)
 
 ## Pre-trained Models Used
 We selected the following pre-trained models based on their architecture and suitability for image classification tasks involving complex anatomical structures, such as distinguishing between healthy brain tissue and tumors:
