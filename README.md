@@ -38,7 +38,7 @@ The models were evaluated using the following metrics:
 - Loss: Binary cross-entropy loss used for training and evaluation.
 - Precision: Indicates the proportion of true positive predictions among all positive predictions.
 - Recall: Measures the ability of the model to detect all relevant cases (tumors).
-- F1 Score: Harmonic mean of precision and recall, providing a balanced measure of performance.
+- F1 Score: Harmonic mean of precision and recall, providing a balanced performance measure.
 
 ## Results
 | Model         | Accuracy | Loss   | Precision | Recall | F1 Score |
@@ -46,9 +46,6 @@ The models were evaluated using the following metrics:
 | VGG16         | 88.78%   | 0.3345 | 53.00%    | 55.00% | 54.00%   |
 | InceptionV3   | 83.81%   | 0.3812 | 53.00%    | 56.00% | 54.00%   |
 | EfficientNetB0| 62.50%   | 0.6897 | 39.00%    | 62.00% | 48.00%   |
-
-## Discussion
-[The discussion section remains largely the same, replacing mentions of pneumonia with brain tumor]
 
 ## Conclusion
 Transfer learning proved highly effective for brain tumor detection from MRI images, with InceptionV3 providing the best overall performance. This approach can be extended to other medical imaging tasks to enhance diagnostic accuracy and speed in clinical practice.
