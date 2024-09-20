@@ -43,9 +43,9 @@ The models were evaluated using the following metrics:
 ## Results
 | Model         | Accuracy | Loss   | Precision | Recall | F1 Score |
 |---------------|----------|--------|-----------|--------|----------|
-| VGG16         | 88.78%   | 0.3345 | 53.00%    | 55.00% | 54.00%   |
-| InceptionV3   | 83.81%   | 0.3812 | 53.00%    | 56.00% | 54.00%   |
-| EfficientNetB0| 62.50%   | 0.6897 | 39.00%    | 62.00% | 48.00%   |
+| VGG16         | 98.78%   | 0.0610 | 100.00%    | 100.00% | 100.00%   |
+| InceptionV3   | 92.61%   | 0.3812 | 64.00%    | 58.00% | 38.00%   |
+| RestNet50     | 77.62%   | 0.4746 | 100.00%    | 100.00% | 100.00%   |
 
 ## Conclusion
 Transfer learning proved highly effective for brain tumor detection from MRI images, with InceptionV3 providing the best overall performance. This approach can be extended to other medical imaging tasks to enhance diagnostic accuracy and speed in clinical practice.
